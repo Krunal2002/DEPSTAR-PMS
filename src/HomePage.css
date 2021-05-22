@@ -1,0 +1,139 @@
+.home_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  flex: 1;
+}
+
+.home_header {
+  flex: 0.1;
+  display: flex;
+  flex: 1;
+  margin-top: 10px;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.header_left {
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.header_left > img {
+  height: 200px;
+  width: 200px;
+  /* border: 1px solid black; */
+}
+
+.header_right {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  /* border: 1px solid black; */
+}
+
+.sl_btn {
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  background: none;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+}
+.sl_btn:hover {
+  background-color: rgb(213, 206, 252);
+}
+
+.header_right > Button {
+  height: 40px;
+  width: 150px;
+  font-size: 14px;
+  background: none;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.header_right > Button:hover {
+  background-color: rgb(213, 206, 252);
+}
+
+.header_right > h4 {
+  display: flex;
+  font-size: large;
+
+  color: gray;
+}
+
+.home_body {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  height: 80%;
+  /* border: 1px solid black; */
+}
+
+.body_left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: flex-start;
+  /* border: 1px solid black; */
+}
+
+.body_left > h5 {
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.body_left > h1 {
+  font-size: 80px;
+  line-height: 1;
+}
+
+.f {
+  color: #0506bf;
+}
+
+#Button {
+  margin-top: 30px;
+  color: rgb(255, 254, 254);
+  font-size: 18px;
+  justify-content: center;
+  height: 50px;
+  width: 300px;
+  background-color: #8865e9;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+#Button:hover {
+  background-color: rgb(132, 75, 254);
+  cursor: pointer;
+}
+
+.body_right {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  /* margin-right: 150px; */
+
+  /* border: 1px solid black; */
+}
+
+.body_right > img {
+  height: 500px;
+  width: 550px;
+}

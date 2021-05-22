@@ -1,0 +1,20 @@
+.sideOptions {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.sideOptions:hover {
+  background-color: rgb(213, 237, 241, 0.5);
+  border-radius: 10px;
+}
+
+.sideOptions > h4 {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.sideOptions > #icons {
+  margin-left: 20px;
+}

@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  height: 100vh;
+  background: #fff;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  background: linear-gradient(to bottom, #ccf1fa, #a6a4f0);
+  border-radius: 0px 30px 30px 0px;
+}
+
+.sProfile {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sProfile > #a {
+  height: 100px;
+  width: 100px;
+}
+
+.sProfile > h2 {
+  font-weight: 450;
+  text-align: center;
+  padding-top: 15px;
+  cursor: default;
+}
+
+.options {
+  flex: 0.6;
+}
+
+.centerBody {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.route-link {
+  color: black;
+  text-decoration: none;
+}
+
+/* Project Text area */
+#textarea {
+  width: 80%;
+  height: 50px;
+  background: none;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-bottom: 1px solid gray;
+  resize: none;
+  font-size: large;
+}
+
+#textarea::-webkit-scrollbar {
+  display: none;
+}

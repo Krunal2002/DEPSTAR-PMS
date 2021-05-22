@@ -1,0 +1,34 @@
+.Student-company{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    width: 80%;
+    background: #1E2122;
+    border-radius: 25px;
+    box-shadow: 3px 3px 0px 0px rgba(107, 107, 107, 0.6);
+}
+
+.company-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    /* border: 1px solid white; */
+}
+
+.comp-name{
+    flex: 0.1;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D6EDFA;
+    border-bottom: 1px solid #D6EDFA;
+}
+
+.company-details{
+    flex: 0.9;
+    width: 90%;
+}

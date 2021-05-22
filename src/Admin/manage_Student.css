@@ -1,0 +1,70 @@
+.Student-mng-body {
+  /* height: 30rem;
+  width: 35rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #1e2122;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px 0px rgba(29, 25, 25, 0.7);
+}
+
+.Swipe {
+  position: absolute;
+}
+
+.tinderCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#upperSec {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  margin: 10px;
+}
+
+#profileInfo {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #isHired{
+    flex: 0.1;
+    
+    height: 100%;
+} */
+
+#mng-avatar {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+#s-Details {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#s-Details > table {
+  height: 100%;
+  width: 70%;
+  color: white;
+  margin-right: 30px;
+}
+
+#delete-btn {
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: white;
+}

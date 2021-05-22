@@ -1,0 +1,16 @@
+/* #files {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#files > p {
+  padding-top: 5px;
+  font-size: large;
+} */
+
+.label {
+  margin-top: 5px;
+}

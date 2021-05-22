@@ -1,0 +1,149 @@
+.dashboard {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.upperDash {
+  height: 40%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bottomDash {
+  display: flex;
+  width: 80%;
+  height: 40%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.upperRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgb(151, 149, 149);
+  box-shadow: 0px 0px 3px 3px rgba(133, 126, 126, 0.5);
+}
+
+.upperLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgb(151, 149, 149);
+  box-shadow: 0px 0px 3px 3px rgba(133, 126, 126, 0.5);
+}
+
+.bottomRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgb(151, 149, 149);
+  box-shadow: 0px 0px 3px 3px rgba(133, 126, 126, 0.5);
+}
+
+.bottomLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgb(151, 149, 149);
+  box-shadow: 0px 0px 3px 3px rgba(133, 126, 126, 0.5);
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+}
+
+.dashboard-header {
+  flex: 0.15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 95%;
+  border-bottom: 1px solid rgb(131, 130, 130);
+}
+
+.dashboard-header > h4 {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.dashboard-body,
+.req-form-body {
+  width: 90%;
+  flex: 0.85;
+  margin-top: 5px;
+}
+
+#LOR,
+#NOC {
+  height: 20%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#LOR,
+#NOC > p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#LOR > Button {
+  width: 50px;
+  height: 30px;
+  background-color: #4834d4;
+  color: rgb(255, 255, 255);
+}
+
+#NOC > Button {
+  width: 50px;
+  height: 30px;
+  background-color: #4834d4;
+  color: rgb(255, 255, 255);
+}
+
+#requestForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#req-btn {
+  margin-top: 30px;
+  padding: 5px 15px;
+  background-color: #4834d4;
+  color: rgb(255, 255, 255);
+}
+
+#comingSoon {
+  height: 100%;
+  width: 100%;
+}

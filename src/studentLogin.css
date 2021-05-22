@@ -1,0 +1,43 @@
+#loginCard{
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    left: 30%;
+    top: 10%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.4), rgba(255,255,255,0.3));
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border-top: 2px solid rgba(255,255,255,1);
+    border-left: 2px solid rgba(255,255,255,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginFrom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#login{
+    height: 10%;
+    width: 40%;
+    
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+#loginFrom>h1{
+    width: 50%;
+    text-align: center;
+}
+
+#loginLink{
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+}

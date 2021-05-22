@@ -1,0 +1,20 @@
+.admin_sideOptions {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.admin_sideOptions:hover {
+  background-color: rgb(213, 237, 241, 0.5);
+  border-radius: 10px;
+}
+
+.admin_sideOptions > h4 {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.admin_sideOptions > #icons {
+  margin-left: 20px;
+}

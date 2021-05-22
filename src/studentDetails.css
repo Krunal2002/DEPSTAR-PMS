@@ -1,0 +1,115 @@
+.b {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  height: 80%;
+  width: 50%;
+  border-radius: 30px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(127, 235, 243, 0.815),
+    rgba(214, 174, 240, 0.678)
+  );
+  overflow: auto;
+}
+
+.registration-Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Card::-webkit-scrollbar {
+  display: none;
+}
+
+.Card {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.registration-Form > h2 {
+  font-weight: 500;
+}
+
+.registration-Form > input {
+  width: 80%;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.registration-Form > #next-btn {
+  height: 40px;
+  width: 60%;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown {
+  height: 30px;
+  width: 80%;
+  margin-top: 20px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.select {
+  width: 85%;
+  margin-top: 10px;
+}
+
+.ufm {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  padding-left: 10px;
+}
+
+.ufm > p {
+  font-weight: 500;
+  font-size: large;
+}
+
+.dropdown {
+  font-size: 16px;
+  border-bottom: 1px solid rgb(27, 26, 26);
+}
+
+.dropdown > option {
+  color: black;
+}
+
+#upload-btn {
+  width: 15%;
+  background: white;
+  border-radius: 15px;
+  font-size: 14px;
+  height: 25px;
+}
+
+.file-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}

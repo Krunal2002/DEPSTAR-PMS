@@ -1,0 +1,42 @@
+.bottom-btn {
+  height: 40px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.n-btn {
+  width: 45%;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.add-btn {
+  width: 45%;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btns {
+  width: 100%;
+}
+
+#firstJob {
+  width: 80%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#firstJob > p {
+  font-size: large;
+  padding-top: 10px;
+}
